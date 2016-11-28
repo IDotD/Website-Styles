@@ -1,0 +1,54 @@
+@media print {
+  html,body {
+    overflow: visible;
+  }
+  .c1in3 {
+    display:none;
+  }
+  .c2in3 {
+    width:99%;
+  }
+  .raidlist table,
+  .raidlist .icon-wrapper,
+  .raidlist .icon-wrapper:hover,
+  .raidlist .icon-wrapper:focus,
+  .raidlist .icon-wrapper:active,
+  .raidlist .icon-wrapper:visited {
+    max-width:100%;
+    width:100%;
+    float:none;
+  }
+  #header h1 {
+    font-size:120%;
+  }
+  #header h2 {
+    font-size:105%;
+  }
+  .page-wrapper {
+    width:100%;
+    box-shadow: none;
+  }
+  .hgroup {
+    padding:0.6em 0;
+  }
+  .page-wrapper {
+    margin-top:0;
+    margin-bottom:0;
+  }
+  #nav,
+  #footer-nav {
+    display: none;
+  }
+  #footer {
+    border-top: 1px solid #ccc;
+  }
+  #header {
+    border-bottom: 1px solid #ccc;
+  }
+  .page,.page-wrapper,html,body,#header,#footer,tr,th,.raidlist a,#header h2,#header h1,thead {
+    background:#fff;
+  }
+  .page,.page-wrapper,html,body,#header,#footer,tr,th,#header h2,#header h1,thead {
+    color:#000;
+  }
+}
